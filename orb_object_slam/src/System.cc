@@ -36,6 +36,7 @@
 #include "ORBVocabulary.h"
 
 #include <time.h>
+#include <unistd.h>
 
 bool has_suffix(const std::string &str, const std::string &suffix)
 {
